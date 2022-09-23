@@ -47,7 +47,9 @@ def mask(cvv):
 
 
 mask(input('Enter your Credit Card Number: '))
-'''
+
+
+
 from statistics import mode
 
 a = [1,1,1,2,3,6,1,4]
@@ -58,6 +60,23 @@ b = mode(a)
 #
 #     b.append(i)
 print(b)
+'''
+def mask(cvv):
+
+    x = ''
+    l = len(cvv)
+    if l == 12:
+
+        for i in cvv and range(l-4):
+            x += '*'
+
+        return(x+cvv[7:11])
+    else:
+        err = 'The required length should be 12 characters!! TRY AGAIN!!'
+        return err
+
+code = input('Enter your Credit Card Number: ')
+print(mask(code))
 
 
 
