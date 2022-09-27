@@ -1,3 +1,7 @@
+'''
+The function is aimed at converting degrees to radians and returning the result using the DegToRad() function
+'''
+
 from math import pi
 
 def DegToRad(num):
