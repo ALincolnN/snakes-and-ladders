@@ -1,4 +1,9 @@
 
+
+'''
+This project is aimed at defining a CountVowels() function which takes a string as input, checks the characters in the
+    string and builds a list pf all the vowels found inna the string then displays it.
+'''
 def CountVowels(a):
     b = []
 
@@ -12,5 +17,6 @@ def CountVowels(a):
     else:
         print('No word entered!!')
 
-CountVowels(input('Enter a word:'))
+input(input('Enter a word:'))
+CountVowels(input)
 
