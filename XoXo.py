@@ -1,4 +1,10 @@
+'''
+The program is built to take a string as input,check the characters in the string and return a dictionary of all the Os
+    and Xs in the string.
 
+The program then takes the two derived lists,checks the lengths and returns True or False based on if they are equal
+    or not.
+'''
 def check(cross):
 
     x = []
@@ -26,7 +32,7 @@ def check(cross):
     else:
         print(countO == countX)
 
-    
-check(input('Enter a word or sentence to check: '))
+string = input('Enter a word or sentence to check: ')
+check(string)
 
 
