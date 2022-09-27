@@ -1,4 +1,10 @@
 
+'''
+The program gets a number as an input from the user to check if it is odd or even and if the number is divisible by 4 or not.
+
+The second epoch of the program is to ask a user for two numbers, divide them and check if they evenly divide into each
+    other and return the feedback.
+'''
 number = int(input("Enter a number: "))
 
 '''
